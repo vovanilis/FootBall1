@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/pole"
+        android:layout_width="700dp"
+        android:layout_height="400dp"
+        android:background="@drawable/shape"
+        android:scaleType="centerCrop"
+        android:src="@drawable/pole"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.454" />
+
+    <ImageView
+        android:id="@+id/ball"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:src="@drawable/ball"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.269"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.457"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/player1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/player1"
+        tools:ignore="ContentDescription"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+    <ImageView
+        android:id="@+id/player2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/player2"
+        tools:ignore="ContentDescription"
+        tools:layout_editor_absoluteX="80dp"
+        tools:layout_editor_absoluteY="174dp" />
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
